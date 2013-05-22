@@ -32,7 +32,7 @@ mod.directive 'infiniteScroll', ['$rootScope', '$window', '$timeout', ($rootScop
     container = $window
 
     # infinite-scroll-container sets the container which we want to be
-    # infinte scrolled, instead of the whole window window. Must be an
+    # infinte scrolled, instead of the whole window. Must be an
     # Angular or jQuery element.
     if attrs.infiniteScrollContainer?
       scope.$watch attrs.infiniteScrollContainer, (value) ->
